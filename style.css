@@ -1,0 +1,210 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+/* 헤더부분 */
+.header{
+    padding-top: 2em;
+    height: 700px;
+    border-bottom: 1px solid black;
+    margin-bottom: 3em;
+    background-color: black;
+    color: white;
+    /* background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    background-image: url('img/main-backgrond.png'); */
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0)),url('/img/main-backgrond.png');
+}
+.header_bar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+.Logo_bar{ 
+    margin-left : 3em;
+    cursor: pointer;
+}
+.menu_bar{ 
+    margin-left: 3em;
+    font-family: 'Medium';
+}
+.button_bar{ 
+    width: 170px;
+    height : 46px;
+    background-color: black;
+    margin-right  : 3em;
+    color: white;
+    border : 1px solid white;
+    cursor: pointer;
+}
+.header_title{
+    margin-top: 3em;
+    text-align: center;
+    font-size: 60px;
+    font-family:  'Bold';
+    margin-left: 9em;
+}
+img.infinite_rotating_logo{
+    animation: rotate_image 16s linear infinite;
+    transform-origin: 50% 50%;
+}
+ 
+@keyframes rotate_image{
+	100% {
+    	transform: rotate(360deg);
+    }
+}
+/* 헤더부분 끝*/
+.container{
+    display: grid;
+    grid-template-columns: 460px 460px 460px;
+	grid-template-rows: 400px;
+    text-align: center;
+}
+.aticle1{
+    background-color: #00B6CF;
+    border:1px solid black;
+    margin-left: 2.7em;
+}
+.aticle2{
+    background-color: #00B6CF;
+    border:1px solid black;
+    margin-left: 2.7em;
+}
+.aticle3{
+    background-color: #00B6CF;
+    border:1px solid black;
+    margin-left: 2.7em;
+}
+
+.aticle_img{
+    margin-top: 6em;
+    margin-bottom: 3em;
+    width: 120px;
+    height: 120px;
+}
+
+.aticle_title{
+    font-size: 30px;
+    color:white
+}
+
+.center{
+    display: flex;
+}
+.center_content{
+    margin-top: 15em;
+    margin-bottom: 15em;
+    text-align: center;
+    font-size:20px;
+    margin-left: 22em;
+}
+.github{
+    position:  absolute;
+    opacity: 0.3;
+    margin-top:7em;
+}
+.laptop{
+    position:  absolute;
+    opacity: 0.3;
+    width: 650px;
+    height: 520px;
+    margin-left: 50em;
+    margin-top:11em;
+}
+
+
+
+
+
+
+/* 움직이는 텍스트 */
+.animated-title {
+    height: 250px;
+    background-color: black;
+    font-size:60px;
+    font-family:'Raleway'
+      ,Sans-serif;
+    font-weight:300;
+    position: relative;
+    width: 100%;
+    max-width:100%;
+    height: auto;
+    padding:100px 0;
+    overflow-x: hidden;
+    overflow-y: hidden; }
+  .animated-title .track {position: absolute; white-space: nowrap;
+    will-change: transform;animation: marquee 30s linear infinite; }
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  @media (hover: hover) and (min-width: 700px){
+  .animated-title .content {-webkit-transform: translateY(calc(100% - 8rem)); transform: translateY(calc(100% - 8rem));}
+
+.education{
+    margin-top : 4em;
+    margin-bottom : 4em;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.option_container{ 
+    margin-top:2em; 
+    display: grid;
+    grid-template-columns: 700px 700px;
+	grid-template-rows: 300px 300px; 
+}
+.option_num1{
+    display: flex;
+    border: 1px solid #00B6CF;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+.option_num2{
+    display: flex;
+    border: 1px solid #00B6CF;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+.option_num3{
+    display: flex;
+    border: 1px solid #00B6CF;
+    margin-left: 1em;
+}
+.option_num4{
+    display: flex;
+    border: 1px solid #00B6CF;
+    margin-left: 1em;
+}
+.option_img{
+    margin-top: 5em;
+    margin-left: 3em;
+    width: 100px;
+    height: 100px;
+}
+.option_content{
+    margin-top: 2em;
+    margin-left: 3em;
+}
+.option_title{
+    font-weight: bold;
+    font-size: 25px;
+    color: #00B6CF;
+}
+.option_title_content{
+    margin-top: 10em;
+    font-size:20px;
+}
+
+
+
+footer{
+    margin-top:3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    background-color: black;
+    color: #A1A1A1;
+}
