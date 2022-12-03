@@ -22,11 +22,13 @@
   <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="./reset.css">
-  <link rel="stylesheet" href="./grid.css">
-  <link rel="stylesheet" href="./styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <!-- 모바일 반응형 화면에서 우측 여백 발생 해결 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="./CSS/reset.css">
+  <link rel="stylesheet" href="./CSS/grid.css">
+  <link rel="stylesheet" href="./CSS/styles.css">
+  <link rel="stylesheet" href="./CSS/styles_MediaQuery.css">
 </head>
 
 <body>
@@ -38,14 +40,15 @@
         </a>
         <nav class="nav_wrap">
           <ul class="nav_flex">
-            <li><a href="" class="nav_margin nav_selector_home">HOME</a></li>
-            <li><a href="" class="nav_margin nav_selector_about">스터디 소개</a></li>
-            <li><a href="" class="nav_margin nav_selector_point">핵심 가치</a></li>
-            <li><a href="" class="nav_margin nav_selector_FAQ">FAQ</a></li>
+            <li class="nav_margin_li"><a href="" class="nav_margin nav_selector_home">HOME</a></li>
+            <li class="nav_margin_li"><a href="" class="nav_margin nav_selector_about">스터디 소개</a></li>
+            <li class="nav_margin_li"><a href="" class="nav_margin nav_selector_point">핵심 가치</a></li>
+            <li class="nav_margin_li"><a href="" class="nav_margin nav_selector_FAQ">FAQ</a></li>
           </ul>
         </nav>
         <a class="button_deco" href="https://forms.gle/yKkLsKMdtYmnsQNu8" target="_blank">🔥 합류하기</a>
       </div>
+      <div class="more_btn"></div>
     </header>
 
     <section class="main_Banner">
@@ -191,7 +194,7 @@
 
 
   </div>
-
+  <script src="./JS/custom.js"></script>
 </body>
 
 </html>
