@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@import url("./theme.css");
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none
+    
+}
+.main-banner{
+    background-color: aqua;
+}
+.row-item{
+    background-color: red;
+}
+.value-item{
+    background-color: blue;
+}
+.item-header{
+    background-color: var(--color-gray-900);
+}
