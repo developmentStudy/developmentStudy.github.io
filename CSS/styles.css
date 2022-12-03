@@ -83,7 +83,7 @@ footer {
 .main_Banner {
     width: 100%;
     height: 900px;
-    background-image: linear-gradient(to right, rgba(0,0,0,0.90), rgba(0,0,0,0.65), rgba(0,0,0,0.1)),url('./img/main-backgrond.png');
+    background-image: linear-gradient(to right, rgba(0,0,0,0.90), rgba(0,0,0,0.65), rgba(0,0,0,0.1)),url('../img/main-backgrond.png');
 }
 
 .main_text {
