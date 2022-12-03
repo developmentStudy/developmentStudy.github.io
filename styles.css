@@ -51,7 +51,7 @@ footer {
 }
 
 .nav_margin {
-    color: #fff; 
+    color: #868686;
     text-decoration: none;
     margin-left: 40px;
     font-size: 18px;
@@ -62,11 +62,6 @@ footer {
 .nav_margin:hover {
     color: #fff;
     transition: 1.5s, color 1s;
-}
-
-.nav_selector_about .nav_selector_point .nav_selector_FAQ {
-    color: #868686;
-    font-weight: 500;
 }
 
 .button_deco {
