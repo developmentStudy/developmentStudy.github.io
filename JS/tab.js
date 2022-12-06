@@ -1,6 +1,7 @@
 $(".tabs").each(function (index, element) {
   const btn = $(this).find(".tabs-nav a");
   const content = $(this).find(".tabs-content");
+  console.log(btn);
 
   btn.on("click", function (e) {
     e.preventDefault();
