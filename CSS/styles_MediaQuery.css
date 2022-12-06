@@ -1,3 +1,28 @@
+@media screen and (max-width: 1512px) {
+
+  .option_num1, .option_num2, .option_num3, .option_num4{
+    left: -4.25rem;
+  }
+
+  .option_title {
+    font-size: 2rem;
+  }
+
+  .option_title_content {
+    font-size: 1.3rem;
+  }
+
+  .main_Banner_text_wrap {
+    left: 34%;
+  }
+
+  .laptop {
+    top: -170px;
+    left: 236px;
+ }
+
+}
+
 @media screen and (max-width: 576px) { 
 
   body {
@@ -16,6 +41,17 @@
     margin-right: 3.25rem;
     margin-top: 1rem;
     background-image: url('../img/icon/close.svg');
+    transition: all 0.5s;
+  }
+
+  .more_btn.addedClass{
+    width: 2.875rem;
+    height: 2.875rem;
+    float: right;
+    margin-right: 3.25rem;
+    margin-top: 1rem;
+    background-image: url('../img/icon/menu.svg');
+    transition: all 0.5s;
   }
 
   .nav_flex {
