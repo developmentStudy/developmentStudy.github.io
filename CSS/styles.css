@@ -1,3 +1,20 @@
+body{
+ -ms-overflow-style: none;
+ }
+ 
+::-webkit-scrollbar {
+  display: none;
+}
+
+/*특정 부분 스크롤바 없애기*/
+
+.box{
+   -ms-overflow-style: none;
+}
+.box::-webkit-scrollbar{
+  display:none;
+}
+
 .html_wrap {
     letter-spacing: -0.04rem;
     overflow-x: hidden;
@@ -51,12 +68,17 @@ footer {
 }
 
 .nav_margin {
-    color: #fff;
+    color: #868686;
     text-decoration: none;
-    margin-left: 24px;
+    margin-left: 40px;
     font-size: 18px;
-    font-weight: 100;
+    font-weight: 400;
     letter-spacing: 0;
+}
+
+.nav_margin:hover {
+    color: #fff;
+    transition: 1.5s, color 1s;
 }
 
 .button_deco {
@@ -78,7 +100,7 @@ footer {
 .main_Banner {
     width: 100%;
     height: 900px;
-    background-image: linear-gradient(to right, rgba(0,0,0,0.90), rgba(0,0,0,0.65), rgba(0,0,0,0.1)),url('./img/main-backgrond.png');
+    background-image: linear-gradient(to right, rgba(0,0,0,0.90), rgba(0,0,0,0.65), rgba(0,0,0,0.1)),url('../img/main-backgrond.png');
 }
 
 .main_text {
@@ -131,7 +153,8 @@ img.infinite_rotating_move {
 }
 
 .color4, .color5, .color6, .color7 {
-    background-color: #d4d4d4;
+    background-color: #F6F6F6;
+    border: 1px solid #00B6CF;
 }
 
 .container_wrap {
@@ -177,6 +200,7 @@ img.infinite_rotating_move {
     position: relative;
     top: 180px;
     left: -24px;
+    z-index: -1;
 }
 
 .laptop {
@@ -184,13 +208,15 @@ img.infinite_rotating_move {
     position: relative;
     top: -360px;
     left: 60px;
-
+    z-index: -1;
 }
 
 .option_num1, .option_num2, .option_num3, .option_num4{
+    position: relative;
+    top: 5.625rem;
+    left: -1.25rem;
     display: flex;
-    margin-top: 100px;
-    margin-left: 10rem;
+    margin-left: 7rem;
     margin-bottom: 10rem;
 }
 
@@ -215,3 +241,39 @@ img.infinite_rotating_move {
 .content > span {
     display: inline;
 };
+
+
+/* 개발스터디 학습 방식 */
+.conainer_text_wrap {
+    width: 100%;
+    height: 6rem;
+    background-color: #00B6CF;
+}
+
+.conainer_main_text {
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.option_title {
+    margin-left: 2.5rem;
+    color: #00B6CF;
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: -0.07rem;
+}
+
+.option_title_content {
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.05rem;
+}
+
+.option_img {
+    width: 12.5rem;
+    height: 12.5rem;
+}
