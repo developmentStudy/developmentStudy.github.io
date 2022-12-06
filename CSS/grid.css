@@ -20,3 +20,16 @@
 .grid-item2 {
     grid-column: 3 / 5;
 }
+
+.contain-inner {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
+}
+
+.contain-inner {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1280px;
+    width: 100%;
+}
